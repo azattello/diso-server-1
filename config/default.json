@@ -1,0 +1,5 @@
+{
+    "serverPort" : 3001,
+    "dbUrl": "mongodb+srv://azatabdykalli:G7bqsGdIg3jBJFDr@diso-cargo.wkbgv.mongodb.net/?retryWrites=true&w=majority&appName=diso-cargo",
+    "secretKey" : "mern-secret-key"
+}

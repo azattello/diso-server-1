@@ -39,9 +39,6 @@ const getUserArchive = async (req, res) => {
         ...bookmark.toObject(),
         trackDetails: track, // Добавляем информацию о треке
         history: track.history, // Добавляем историю статусов с текстом
-        price: user.personalRate ? (parseFloat(track.weight) * parseFloat(user.personalRate)).toFixed(2) : track.price || 'Неизвестно',
-        weight: track.weight || 'Неизвестно',
-        place: track.place || '-'
       });
     }
 

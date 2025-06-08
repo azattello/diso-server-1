@@ -22,7 +22,8 @@ const ArchiveBookmarkSchema = new Schema({
             date: { type: Date, default: Date.now }
         }],
         default: []
-    }
+    },
+    receivedAt: { type: Date, required: false } // Добавляем поле для даты получения
 });
 
 
